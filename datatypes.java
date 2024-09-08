@@ -13,14 +13,13 @@ public class datatypes {
 		char c='h';
 		System.out.println(c);
 		String str="harika";
-		System.out.println(str);
-//		
+		System.out.println(str);	
 		System.out.println(str);
 		
 		int n=b;//implicit type casting
 		long l1=n;
 		System.out.print(l1);
-//		
+		
 		
 		
 		
