@@ -2,7 +2,7 @@ package datatypes;
 
 public class student {
 
-	public static String name="harika";
+	public static String name;
 	public static int id;
 	
 	public void info() {
