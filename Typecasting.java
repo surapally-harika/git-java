@@ -34,8 +34,6 @@ public class Typecasting {
 		System.out.println("int to byte-  "+b2);
 		
 		
-		
-		
 	}
 
 }
