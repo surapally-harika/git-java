@@ -9,27 +9,35 @@ public class Employee {
 	public int salary;
 	public String address;
 	
+	public Employee() {
+		
+	}
+	
 	
 	public Employee(String name,int empid,int age,String gender,int salary,String address) {
-		
-		this.name="harika";
-		this.empid=001;
-		this.age=21;
-		this.gender="female";
-		this.salary=50000;
-		this.address="hyderabad";
+		this.name = name;
+		this.empid = empid;
+		this.age = age;
+		this.gender = gender;
+		this.salary = salary;
+		this.address = address;	
 		
 	}
+	
 	public void empinfo() {
-		System.out.print(name);
-		System.out.print(empid);
-		System.out.print(age);
-		System.out.print(gender);
-		System.out.print(salary);
-		System.out.print(address);
+		System.out.print(this.name);
+		System.out.print(this.empid);
+		System.out.print(this.age);
+		System.out.print(this.gender);
+		System.out.print(this.salary);
+		System.out.print(this.address);
 		
 	}
-	public void salary() {
+	
+	public void getsalary() {
+		
+		
+		System.out.println("Employee salary"+this.salary);
 		
 		
 	}
