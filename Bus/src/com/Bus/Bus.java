@@ -102,7 +102,9 @@ public class Bus {
 			
 			getService();
 		    
-			b.Calculate(15);
+			int result = b.Calculate(15);
+			System.out.print(result);
+		
 			
 		}
 		
