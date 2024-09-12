@@ -36,7 +36,6 @@ public class account {
 		this.accountType = accountType;
 	}
 	
-	 
 	
 
 }
