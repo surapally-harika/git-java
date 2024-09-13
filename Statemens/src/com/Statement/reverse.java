@@ -7,9 +7,9 @@ public class reverse {
 		int rev=0;
 		
 		while(n>0) {
-			int i=n%10;  //6  //5 //4 //3
-			rev = rev*10+i;  //6  //65 //654  //6543
-			n/=10; //345 //34 //3  //0
+			int i=n%10;  
+			rev = rev*10+i;  
+			n/=10; 
 			
 		}
 		
