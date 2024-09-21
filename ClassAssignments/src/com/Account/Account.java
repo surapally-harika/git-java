@@ -7,8 +7,7 @@ public class Account {
 	public String accountName;
 	public String accountType;
 	public int pin;
-	
-	
+
 	public void getbalance() {
 		
 		
