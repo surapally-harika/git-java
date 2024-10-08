@@ -1,6 +1,6 @@
 package com.DSA;
 
-public class Quick {
+public class Quicksort {
 
 	public static int partition(int[] arr,int low,int high) {
 		int pivot = arr[high];
