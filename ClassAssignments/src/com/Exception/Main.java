@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
 		
 		
 		int[] arr = {1,2,3,4};
@@ -18,6 +18,7 @@ public class Main {
 		catch(Exception e) {
 			System.out.println("ArrayOutOfBoundsException");
 		}
+		
 		
 	}
 
