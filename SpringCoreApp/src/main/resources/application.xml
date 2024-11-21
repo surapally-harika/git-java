@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+   <!--  <bean id="st" class="springcore.Student">
+             <property name="rollno" value="20"></property>
+             <property name="name" value="Harika"></property>
+             <property name="marks" value="450"></property>
+    </bean> -->
+    
+    <bean id="address" class="springcore.Address">
+             <property name="city" value="hyderabad"></property>
+             <property name="state" value="telangana"></property>
+             <property name="pin" value="500010"></property>
+    </bean>
+    
+    <bean id="student" class="springcore.Student">
+           <!--  <property name="address" ref="address"></property> -->
+           <constructor-arg ref="address" />
+     </bean>
+   
+</beans>
