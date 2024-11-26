@@ -10,7 +10,9 @@ public class greatest_sum {
         
         int max1 = Integer.MIN_VALUE; 
         int max2 = Integer.MIN_VALUE; 
+        
         for (int num : arr) {
+        	
             if (num > max1) {
 
                 max2 = max1;
@@ -21,20 +23,7 @@ public class greatest_sum {
         }
         int greatestSum = max1 + max2;
         System.out.println("Greatest sum of two integers: " + greatestSum);
-		
-		
-//		int greatest_sum = 0;	
-//		for(int i=0;i<arr.length;i++) {
-//			for(int j=i+1;j<arr.length;j++) {
-//				int sum = arr[i] + arr[j];
-//				if(sum > greatest_sum) {
-//					greatest_sum = sum;
-//				}
-//			}
-//		}
-//		System.out.println(greatest_sum);
-//		
-		
+	
 		
 		
 	}

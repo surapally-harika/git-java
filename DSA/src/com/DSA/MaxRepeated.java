@@ -4,7 +4,7 @@ public class MaxRepeated {
 
 	public static void main(String[] args) {
 		
-		int[] arr = {2,3,3,4,5,4,6,4,7};
+		int[] arr = {2,3,3,4,3,5,4,6,4,7};
 
 		int max=0;
 		int temp =0;

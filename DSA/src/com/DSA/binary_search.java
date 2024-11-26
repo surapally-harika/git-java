@@ -13,12 +13,14 @@ public class binary_search {
 		int num = sc.nextInt();
 		
 		boolean found = false;
+		
 		int i = 0;
 		int j = arr.length-1;
 		
 		while(i <= j) {
 			
 			int mid = i+(j-i)/2;
+			
 			if(arr[mid] == num) {
 				found = true;
 				break;

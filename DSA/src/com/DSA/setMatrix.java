@@ -6,7 +6,7 @@ public class setMatrix {
 
 		int[][] matrix = {  {1, 1, 1},
 							{1, 0, 1},
-							{1, 1, 1} };
+							{0, 1, 1} };
 
 	        int rows = matrix.length;
 	        int cols = matrix[0].length;

@@ -4,7 +4,7 @@ public class charcount {
 
 	public static void main(String[] args) {
 
-		char[] c = {'a','a','a','b','b','c','c','c','c'};
+		char[] c = {'a','a','a','b','b','c','c','c','c','a'};
 		StringBuilder ch = new StringBuilder();
 		int count =1;
 	
